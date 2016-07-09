@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <p>Welcome Campaign Staff. You are managing the campaign for:</p>
+    <h1>John Smith</h1>
+    <p class="lead">Make America great again!</p>
+    <p>
+        Upcoming Campaign Events
+        <ul>
+            <li>Fundraiser in California, Dec 20th 2015</li>
+            <li>Townhall meeting in New York, Dec 28th 2015</li>
+            <li>Q&A with voter in Washington DC, Jan 10th 2016</li>
+        </ul>
+    </p>
+    <!--p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p -->
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Submit Propositions</h2>
+        <p>
+            The campaign manager gives you a chance to enter the propositions that are most important to voters.
+            Select the propositions entered by the voters against their names.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "VoterProposition")">Enter Voter Propositions &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Submit Donations</h2>
+        <p>You can fund this campaign with donations.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Donation")">Enter Donation &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Submit Vendor Payments</h2>
+        <p>You can easily keep track of the external vendor payments. Just enter the records below</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "VendorPayment")">Enter Payments &raquo;</a></p>
+    </div>
+</div>

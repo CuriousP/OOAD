@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ElectionCampaignManager.Models.VoterProposition>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Proposition.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Voter.First_Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Proposition.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Voter.First_Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.VoterPropositionId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.VoterPropositionId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.VoterPropositionId })
+        </td>
+    </tr>
+}
+
+</table>

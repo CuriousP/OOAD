@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ElectionCampaignManager.FilterConfig">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.MvcApplication">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.CandidatePropositionController">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CandidatePropositionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.CandidatesController">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CandidatesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.CategoryController">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\CategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.DonationController">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DonationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.DonorController">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DonorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.PropositionController">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\PropositionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.VendorPaymentController">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VendorPaymentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.VoterCategoryController">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VoterCategoryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.VoterController">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VoterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Controllers.VoterPropositionController">
+    <Position X="5.5" Y="4" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VoterPropositionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.DAL.CampaignContext">
+    <Position X="0.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQABAAAAgAEAAACEACAIAAAAAAACAAACAA=</HashCode>
+      <FileName>DAL\CampaignContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.DAL.CampaignInitializer">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAL\CampaignInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Candidate">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\Candidate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.CandidateProposition">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\CandidateProposition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Category">
+    <Position X="2.25" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Donation">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAgAAAAAAEAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Donation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Donor">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAAAgAAAAAACAAAAAAA=</HashCode>
+      <FileName>Models\Donor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Proposition">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAEAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Proposition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.VendorPayment">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAAAAAgACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\VendorPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.Voter">
+    <Position X="5.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAgAQAAgAAAAABAAAAEAAAAAFCAAAACAA=</HashCode>
+      <FileName>Models\Voter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.VoterCategory">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAIAAAEAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\VoterCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectionCampaignManager.Models.VoterProposition">
+    <Position X="0.5" Y="4.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Models\VoterProposition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
